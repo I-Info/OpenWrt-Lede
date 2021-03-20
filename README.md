@@ -15,6 +15,7 @@ Build OpenWrt using GitHub Actions
 因此编译后的固件包含了一些常用的软件，如$$R,adguardhome,smartdns。由于暂时用不到多播，没有添加mwan3,负载均衡之类的软件。由于软件较多（部分存在功能重复），比较臃肿。建议根据实际情况，可以卸载一些用不到的软件。    
 此外，还包含较多的webUI主题。      
 许多软件和主题来自于[kenzok8](https://github.com/kenzok8/openwrt-packages)的存储库，感谢大佬。  
+*注意：通过实测docker功能有可能影响固件的稳定性（死机）*
 
 ## 部分功能：
 1.$$上网（多途径）   
